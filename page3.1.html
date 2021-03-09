@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #1d1d1d;
+        }
+
+        header {
+            text-align: center;
+            color: whitesmoke;
+            padding-bottom: 20px;
+        }
+
+        .plan {
+            display: flex;
+            justify-content: space-evenly;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(2, auto);
+            grid-gap: 30px;
+        }
+
+        button {
+            background-color: aquamarine;
+            color: black;
+            border: 3px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+            grid-area: 2/2/3/3;
+            padding: 10px;
+        }
+
+        .plan>div {
+            background-color: #08AEEA;
+background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+
+         
+            text-align: center;
+            width: fit-content;
+            border-radius: 8px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #1d1d1d;
+        }
+
+        .plan>div:hover {
+            bbackground-color: #08AEEA;
+background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+
+            box-shadow: 10px 10px 20px rgba(248, 243, 243, 0.19), 0 6px 6px rgba(241, 228, 228, 0.23);
+            animation-name: width;
+            animation-duration: 8s;
+        }
+        @keyframes width {
+                100% {
+                    transform: scale(1.2);
+                }
+            }
+
+        .img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .header{
+            height:100px;
+            background-color: #0093E9;
+            background-color: #08AEEA;
+background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+            color: black;
+            padding-bottom: ;
+
+        }
+        .pla{
+            background-image: url();
+           height: 470px;
+        }
+        h1{
+            padding: 20px 10px 10px 20px;
+        }
+        h3{
+            padding: 20px;
+        }
+        p{
+        padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <header class="header">
+            <h1>CHOOSE YOUR PLAN</h1>
+            <P>Lose weight with the plan that suits you best</P>
+        </header>
+        <br>
+        <br>
+        <div class="pla">
+        <div class="plan">
+
+            <div class="begin">
+                <a href="page4.1.1.html">
+                    <img src="https://i.postimg.cc/0jkJFh2J/beginner.png" alt="">
+                    <h3>BEGINNER</h3>
+                    <P>5-10min a day</P>
+                </a>
+            </div>
+            <div class="inter">
+                <a href="page4.1.2.html">
+                    <img src="https://i.postimg.cc/Wp8ZgpXm/inter.png" alt="">
+                    <h3>INTERMEDIATE</h3>
+                    <P>10-20min a day</P>
+                </a>
+            </div>
+            </input>
+            <div class="adv">
+                <a href="page4.1.3.html">
+                    <img src="https://i.postimg.cc/nLqjznXD/adv.png" alt="">
+                    <h3>ADVANCED</h3>
+                    <P>15-30min a day</P>
+                </a>
+            </div>
+        </div>
+            <!-- <button class="next"><a href="#"><b>NEXT</b></a></button> -->
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
